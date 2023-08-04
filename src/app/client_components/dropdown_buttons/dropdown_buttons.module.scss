@@ -1,0 +1,127 @@
+.dropwdown-buttons {
+
+    position: relative;
+
+    width: 40px;
+    height: 40px;
+
+    background-color: transparent;
+    
+    &__main {
+
+        position: relative;
+        
+        width: 100%;
+        height: 100%;
+
+        padding: 4px;
+        border-radius: 50%;
+        border: none;
+
+        background-color: var(--default-btn-background-color);
+        background-color: transparent;
+
+        &__icon {
+
+            display: inline-block;
+    
+            width: 100%;
+            height: 100%;
+            
+            background-color: var(--default-btn-icon-color);
+
+            mask-image: url(../../../../public/icons/dots-button.svg);
+            mask-repeat: no-repeat;
+            mask-size: contain;
+
+            pointer-events: none;
+        }
+
+        &:hover {
+            background-color: var(--default-btn-background-color-hover);
+        }
+    
+        &:hover & {
+            &__icon {
+                background-color: var(--default-btn-icon-color-hover);
+            }
+        }
+
+        &:active {
+            background-color: var(--default-btn-background-color-active);
+        }
+    }
+
+    &__container {
+
+        position: fixed;
+        z-index: 1000;
+
+        display: none;
+        flex-flow: column;
+
+        width: 180px;
+        height: fit-content;
+        border-radius: 4px;
+
+        padding: 6px;
+
+        background-color: white;
+
+        box-shadow: var(--dropshadow-1);
+
+        overflow: hidden;
+
+        opacity: .99;
+        
+        &--open {
+            display: initial;
+        }
+
+        &--open {
+
+            &__wrapper {
+
+                display: flex;
+                flex-flow: column;
+    
+                width: 100%;
+                height: fit-content;
+    
+                border-radius: 4px;
+    
+                overflow: hidden;
+    
+                &__button {
+                    display: flex;
+                    justify-content: space-between;
+                    align-items: center;
+    
+                    width: 100%;
+        
+                    padding: 8px 14px;
+        
+                    background-color: white;
+                    border: none;
+    
+                    color: var(--default-font-color);
+
+                    font-size: 0.81rem;
+                    font-weight: 600;
+    
+                    &:hover {
+                        // color: white;
+                        background-color: rgb(241, 241, 241);
+                    }
+    
+                    &:active {
+                        background-color: var(--primary-color-2);
+                    }
+                }
+            }
+
+        }
+
+    }
+
+}

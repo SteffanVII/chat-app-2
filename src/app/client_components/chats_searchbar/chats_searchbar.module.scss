@@ -1,0 +1,51 @@
+.chats-search-bar {
+    position: relative;
+
+    display: grid;
+    grid-template-columns: 1fr min-content;
+
+    width: 100%;
+
+    padding: 14px;
+
+    // border: 1px solid var(--default-border-color);
+    border-radius: 40px;
+
+    background-color: rgb(232, 238, 243);
+
+    &__input {
+        height: 100%;
+        margin-left: 10px;
+
+        border: none;
+
+        font-family: inherit;
+        font-size: 1.1rem;
+        color: var(--default-font-color);
+        background-color: transparent;
+
+        outline: none;
+    }
+
+    &__icon {
+        width: 24px;
+        height: 24px;
+
+        background-color: var(--default-font-color);
+
+        mask-image: url('../../../../public/icons/search.svg');
+        mask-repeat: no-repeat;
+        mask-size: contain;
+    }
+
+    &.focused {
+        border-color: transparent;
+        outline: 4px solid var(--default-outline-color);
+    }
+
+    &.focused & {
+        &__icon {
+            background-color: var(--primary-color-1);
+        }
+    }
+}

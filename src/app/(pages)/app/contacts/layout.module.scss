@@ -1,0 +1,11 @@
+.contacts-window {
+    position: relative;
+
+    display: grid;
+    grid-template-rows: min-content 1fr;
+    gap: 16px;
+
+    width: 400px;
+
+    padding: 16px 0px;
+}

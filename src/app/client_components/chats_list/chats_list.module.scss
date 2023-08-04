@@ -1,0 +1,12 @@
+.chats-list {
+    position: relative;
+
+    display: flex;
+    flex-flow: column;
+    gap: 6px;
+
+    width: 100%;
+    height: 100%;
+
+    // outline: 1px solid red;
+}

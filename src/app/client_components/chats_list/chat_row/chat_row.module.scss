@@ -1,0 +1,120 @@
+.chat-row {
+    position: relative;
+
+    display: grid;
+    grid-template-columns: min-content 1fr min-content;
+    gap: 15px;
+    align-items: center;
+
+    width: 100%;
+    max-width: 100%;
+    height: fit-content;
+    
+    padding: 15px;
+    
+    border-radius: 10px;
+    border: 1px solid rgb(229, 229, 229);
+
+    color: var(--default-font-color);
+    background-color: var(--chat-row-inactive);
+
+    transition: background-color 0.2s;
+
+    &__profile-img {
+        position: relative;
+
+        width: 40px;
+        height: 40px;
+
+        border-radius: 20px;
+
+        background: gray;
+        background-repeat: no-repeat;
+        background-size: contain;
+
+        overflow: hidden;
+    }
+
+    &__details {
+        position: relative;
+
+        display: flex;
+        flex-flow: column;
+        gap: 5px;
+
+        width: 100%;
+        height: fit-content;
+
+        &__recent-msg {
+            width: 250px;
+            font-size: .85rem;
+            white-space: nowrap;
+            overflow: hidden;
+            text-overflow: ellipsis;
+        }
+    }
+
+    &__status {
+        display: flex;
+        flex-flow: column;
+
+        height: 100%;
+
+        &__new {
+            width: 10px;
+            height: 10px;
+
+            margin-left: auto;
+            margin-bottom: auto;
+
+            border-radius: 50%;
+
+            background-color: white;
+            background-color: var(--primary-color-1);
+        }
+
+        &__time {
+            margin-top: auto;
+
+            font-size: 0.7rem;
+
+            white-space: nowrap;
+        }
+    }
+
+    &:hover {
+        background-color: var(--chat-row-hover);
+    }
+    
+    &--active {
+        background-color: var(--chat-row-active);
+
+        &:hover {
+            background-color: var(--chat-row-active);
+        }
+    }
+    
+    &--new {
+        // color: white;
+        // background-color: var(--chat-row-new-message);
+
+        &__details {
+            opacity: 1;
+            font-weight: 600;
+            &__recent-msg {
+                
+            }
+        }
+
+        // &:hover {
+        //     background-color: var(--chat-row-new-message-hover);
+        // }
+    }
+
+    &--new & {
+        &__details {
+            font-weight: 600;
+        }
+    }
+}
+

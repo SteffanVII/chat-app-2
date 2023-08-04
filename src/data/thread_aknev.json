@@ -1,0 +1,36 @@
+{
+    "thread_id" : "aknev",
+    "thread_name" : "Mattias",
+    "messages" : [
+        {
+            "username" : "Mattias",
+            "message" : "Test message",
+            "createdAt" : "06/12/2023 09:00:00"
+        },
+        {
+            "username" : "Josh",
+            "message" : "Test message",
+            "createdAt" : "06/12/2023 10:00:00"
+        },
+        {
+            "username" : "Mattias",
+            "message" : "Test message",
+            "createdAt" : "06/12/2023 10:12:00"
+        },
+        {
+            "username" : "Mattias",
+            "message" : "Test message",
+            "createdAt" : "06/12/2023 10:23:00"
+        },
+        {
+            "username" : "Mattias",
+            "message" : "Test message",
+            "createdAt" : "06/12/2023 11:06:00"
+        }
+    ],
+    "online" : false,
+    "block" : {
+        "status" : false,
+        "youBlock" : false
+    }
+}

@@ -1,0 +1,48 @@
+.conversation-message-input {
+    display: grid;
+    grid-template-columns: 1fr min-content;
+    gap: 20px;
+    align-items: center;
+
+    width: 100%;
+    height: fit-content;
+
+    padding: 20px;
+
+    &__wrapper {
+        position: relative;
+
+        height: fit-content;
+        padding: 10px 20px;
+
+        border-radius: 20px;
+
+        background-color: #EDEDED;
+        
+        textarea {
+            width: 100%;
+            height: fit-content;
+
+            border: none;
+            outline: none;
+
+            resize: none;
+
+            background-color: transparent;
+        }
+
+    }
+
+    &__send {
+        width: 34px;
+        height: 34px;
+
+        border: none;
+
+        background-color: var(--primary-color-1);
+
+        mask-image: url('../../../../../public/icons/send.svg');
+        mask-size: contain;
+        mask-repeat: no-repeat;
+    }
+}

@@ -1,0 +1,88 @@
+{
+    "data" : [
+        {
+            "thread_id" : "ikfkw",
+            "thread_name" : "Steffan",
+            "recent_msg" : {
+                "username" : "Steffan",
+                "message" : "Hello! this is a message",
+                "createdAt" : "06/12/2023 11:06:00"
+            },
+            "online" : true,
+            "block" : {
+                "status" : true,
+                "youBlock" : true
+            }
+        },
+        {
+            "thread_id" : "lanwf",
+            "thread_name" : "Chris",
+            "recent_msg" : {
+                "username" : "Chris",
+                "message" : "Hello! this is a message",
+                "createdAt" : "06/28/2023 11:06:00"
+            },
+            "online" : false,
+            "block" : {
+                "status" : false,
+                "youBlock" : false
+            }
+        },
+        {
+            "thread_id" : "uwjnf",
+            "thread_name" : "Martha",
+            "recent_msg" : {
+                "username" : "Martha",
+                "message" : "Hello! this is a message",
+                "createdAt" : "06/12/2023 11:06:00"
+            },
+            "online" : true,
+            "block" : {
+                "status" : false,
+                "youBlock" : false
+            }
+        },
+        {
+            "thread_id" : "mlawa",
+            "thread_name" : "Vincent",
+            "recent_msg" : {
+                "username" : "Vincent",
+                "message" : "Hello! this is a message",
+                "createdAt" : "06/12/2023 11:06:00"
+            },
+            "online" : true,
+            "block" : {
+                "status" : true,
+                "youBlock" : false
+            }
+        },
+        {
+            "thread_id" : "abejq",
+            "thread_name" : "Clair",
+            "recent_msg" : {
+                "username" : "Josh",
+                "message" : "Test message",
+                "createdAt" : "07/16/2023 06:29:00"
+            },
+            "online" : false,
+            "block" : {
+                "status" : false,
+                "youBlock" : false
+            }
+        },
+        {
+            "thread_id" : "avwfw",
+            "thread_name" : "Jodi",
+            "recent_msg" : {
+                "username" : "Jodi",
+                "message" : "Hello! this is a message",
+                "createdAt" : "06/12/2023 11:06:00"
+            },
+            "online" : true,
+            "block" : {
+                "status" : false,
+                "youBlock" : false
+            }
+        }
+    ]
+}

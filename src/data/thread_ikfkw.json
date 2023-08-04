@@ -1,0 +1,36 @@
+{
+    "thread_id" : "ikfkw",
+    "thread_name" : "Steffan",
+    "messages" : [
+        {
+            "username" : "Steffan",
+            "message" : "Test message",
+            "createdAt" : "06/12/2023 09:00:00"
+        },
+        {
+            "username" : "Josh",
+            "message" : "Test message",
+            "createdAt" : "06/12/2023 10:00:00"
+        },
+        {
+            "username" : "Steffan",
+            "message" : "Test message",
+            "createdAt" : "06/12/2023 10:12:00"
+        },
+        {
+            "username" : "Steffan",
+            "message" : "Test message",
+            "createdAt" : "06/12/2023 10:23:00"
+        },
+        {
+            "username" : "Steffan",
+            "message" : "Test message",
+            "createdAt" : "06/12/2023 11:06:00"
+        }
+    ],
+    "online" : true,
+    "block" : {
+        "status" : true,
+        "youBlock" : true
+    }
+}

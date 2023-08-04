@@ -1,0 +1,31 @@
+{
+    "thread_id" : "mlawa",
+    "thread_name" : "Vincent",
+    "messages" : [
+        {
+            "username" : "Vincent",
+            "message" : "Test message",
+            "createdAt" : "06-12-2023 09:00"
+        },
+        {
+            "username" : "Josh",
+            "message" : "Test message",
+            "createdAt" : "06-12-2023 10:00"
+        },
+        {
+            "username" : "Vincent",
+            "message" : "Test message",
+            "createdAt" : "06-12-2023 10:12"
+        },
+        {
+            "username" : "Vincent",
+            "message" : "Test message",
+            "createdAt" : "06-12-2023 10:23"
+        },
+        {
+            "username" : "Vincent",
+            "message" : "Test message",
+            "createdAt" : "06-12-2023 11:06"
+        }
+    ]
+}

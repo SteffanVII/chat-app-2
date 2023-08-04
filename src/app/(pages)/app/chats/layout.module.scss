@@ -1,0 +1,14 @@
+.chats-window {
+    position: relative;
+
+    display: grid;
+    grid-template-rows: min-content 1fr;
+    gap: 16px;
+
+    width: 400px;
+    height: 100vh;
+
+    padding: 16px 0px;
+
+    background-color: white;
+}

@@ -1,0 +1,31 @@
+{
+    "thread_id" : "avwfw",
+    "thread_name" : "Jodi",
+    "messages" : [
+        {
+            "username" : "Jodi",
+            "message" : "Test message",
+            "createdAt" : "06-12-2023 09:00"
+        },
+        {
+            "username" : "Josh",
+            "message" : "Test message",
+            "createdAt" : "06-12-2023 10:00"
+        },
+        {
+            "username" : "Jodi",
+            "message" : "Test message",
+            "createdAt" : "06-12-2023 10:12"
+        },
+        {
+            "username" : "Jodi",
+            "message" : "Test message",
+            "createdAt" : "06-12-2023 10:23"
+        },
+        {
+            "username" : "Jodi",
+            "message" : "Test message",
+            "createdAt" : "06-12-2023 11:06"
+        }
+    ]
+}
