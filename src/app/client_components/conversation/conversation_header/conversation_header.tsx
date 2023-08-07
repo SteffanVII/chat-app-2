@@ -17,7 +17,7 @@ export default function ConversationHeader( { thread } : { thread : Ithread } ) 
                     <div className={styles['conversation-header__profile']}>
                         <Image
                             alt={`profile picture`}
-                            src={`http://localhost:8080/${thread.thread_name.toLowerCase()}.jpg`}
+                            src={`${process.env.URL}data${thread.thread_name.toLowerCase()}.jpg`}
                             width={40}
                             height={40}
                             style={{

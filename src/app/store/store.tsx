@@ -12,7 +12,8 @@ export interface State {
     loaded_thread :Ithread | null,
     contacts : Iuser[],
     timeago : TimeAgo,
-    dark : boolean
+    dark : boolean,
+    theme : string
 }
 
 export interface Action {
@@ -39,6 +40,7 @@ export const useStore = create<State & Action>()( (set) => {
         contacts : [],
         timeago : new TimeAgo('en-US'),
         dark : false,
+        theme : "green",
 
         // Actions
         jumpThread : ( thread_id : string ) => set( () => ({ thread : thread_id }) ),
@@ -46,5 +48,6 @@ export const useStore = create<State & Action>()( (set) => {
         updateList : ( _list : IchatRow[] ) => set( () => ({ list : _list }) ),
         updateContacts : ( contacts : Iuser[] ) => set( () => ({ contacts : contacts }) ),
         setDark : ( value : boolean ) => set( () => ({dark : value}) ),
+        changeTheme : ( value : string ) => set( () => ({ theme : value }) )
     }
 } );

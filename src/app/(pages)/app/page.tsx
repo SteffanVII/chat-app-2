@@ -1,6 +1,9 @@
 import { StoreInitializer } from "@/app/store/initializer";
+import { redirect } from "next/navigation";
 
 export default function PageApp() {
+
+    redirect("app/chats");
 
     return (
         <>

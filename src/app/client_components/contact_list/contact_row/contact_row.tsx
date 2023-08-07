@@ -16,7 +16,7 @@ export default function ContactRow( { data } : Props ) {
         <div className={sty['contact-row']} >
             <ProfileImage
                 alt={data.username}
-                url={`http://localhost:8080/${data.username.toLowerCase()}.jpg`}
+                url={`${process.env.URL}data/${data.username.toLowerCase()}.jpg`}
                 size={40}
                 online
             />

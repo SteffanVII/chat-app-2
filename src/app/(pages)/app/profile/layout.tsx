@@ -5,6 +5,12 @@ import sty from './layout.module.scss';
 import Link from 'next/link';
 import { useStore } from '@/app/store/store';
 import Tooltip from '@/app/client_components/tooltip/tooltip';
+import { Metadata } from 'next';
+
+export const metadata: Metadata = {
+    title: 'ChatApp | Profile',
+    description: 'Simple chat app UI',
+}
 
 export default function PageProfileLayout( { children } : { children : React.ReactNode } ) {
 
@@ -18,7 +24,7 @@ export default function PageProfileLayout( { children } : { children : React.Rea
                     <div className={sty["profile-picker__profile"]}>
                         <Image
                             alt={`${session.username} profile`}
-                            src={`http://localhost:8080/${session.username.toLowerCase()}.jpg`}
+                            src={`${process.env.URL}data/${session.username.toLowerCase()}.jpg`}
                             fill
                             style={{
                                 objectFit : "contain"

@@ -35,7 +35,7 @@ export default function ChatRow( { _isNew, thread_id } : Props ) {
         >
             <ProfileImage
                 alt={`${data.recent_msg.username} profile picture`}
-                url={`http://localhost:8080/${data.thread_name.toLowerCase()}.jpg`}
+                url={`${process.env.URL}data/${data.thread_name.toLowerCase()}.jpg`}
                 size={40}
                 online={data.online}
             />

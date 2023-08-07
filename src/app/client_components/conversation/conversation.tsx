@@ -162,7 +162,7 @@ export default function Conversation(  ) {
                     <div className={styles['conversation-section__header']} >
                         <ProfileImage
                             alt={`profile picture`}
-                            url={`http://localhost:8080/${loaded_thread.thread_name.toLowerCase()}.jpg`}
+                            url={`${process.env.URL}data/${loaded_thread.thread_name.toLowerCase()}.jpg`}
                             size={40}
                             online={loaded_thread.online}
                         />
@@ -216,7 +216,7 @@ export default function Conversation(  ) {
                                         <div className={styles['conversation-section__messages__container__block-message__wrapper__block-profile']}>
                                             <Image
                                                 alt={`${loaded_thread.thread_name} profile picture`}
-                                                src={`http://localhost:8080/${loaded_thread.thread_name.toLowerCase()}.jpg`}
+                                                src={`${process.env.URL}data/${loaded_thread.thread_name.toLowerCase()}.jpg`}
                                                 width={80}
                                                 height={80}
                                                 style={{

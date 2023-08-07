@@ -28,7 +28,7 @@
             width: 100%;
             height: 100%;
             
-            background-color: var(--default-btn-icon-color);
+            background-color: var(--dropdown-main-icon-color);
 
             mask-image: url(../../../../public/icons/dots-button.svg);
             mask-repeat: no-repeat;
@@ -104,7 +104,7 @@
                     background-color: white;
                     border: none;
     
-                    color: var(--default-font-color);
+                    color: var(--dropdown-font-color);
 
                     font-size: 0.81rem;
                     font-weight: 600;

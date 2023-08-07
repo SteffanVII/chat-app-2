@@ -6,7 +6,12 @@
             "recent_msg" : {
                 "username" : "Steffan",
                 "message" : "Hello! this is a message",
-                "createdAt" : "06-12-2023 11:06"
+                "createdAt" : "06/12/2023 11:06:00"
+            },
+            "online" : true,
+            "block" : {
+                "status" : true,
+                "youBlock" : true
             }
         },
         {
@@ -15,7 +20,12 @@
             "recent_msg" : {
                 "username" : "Chris",
                 "message" : "Hello! this is a message",
-                "createdAt" : "06-28-2023 11:06"
+                "createdAt" : "06/28/2023 11:06:00"
+            },
+            "online" : false,
+            "block" : {
+                "status" : false,
+                "youBlock" : false
             }
         },
         {
@@ -24,7 +34,12 @@
             "recent_msg" : {
                 "username" : "Martha",
                 "message" : "Hello! this is a message",
-                "createdAt" : "06-12-2023 11:06"
+                "createdAt" : "06/12/2023 11:06:00"
+            },
+            "online" : true,
+            "block" : {
+                "status" : false,
+                "youBlock" : false
             }
         },
         {
@@ -33,7 +48,12 @@
             "recent_msg" : {
                 "username" : "Vincent",
                 "message" : "Hello! this is a message",
-                "createdAt" : "06-12-2023 11:06"
+                "createdAt" : "06/12/2023 11:06:00"
+            },
+            "online" : true,
+            "block" : {
+                "status" : true,
+                "youBlock" : false
             }
         },
         {
@@ -42,7 +62,12 @@
             "recent_msg" : {
                 "username" : "Josh",
                 "message" : "Test message",
-                "createdAt" : "07-16-2023 06:29"
+                "createdAt" : "07/16/2023 06:29:00"
+            },
+            "online" : false,
+            "block" : {
+                "status" : false,
+                "youBlock" : false
             }
         },
         {
@@ -51,16 +76,12 @@
             "recent_msg" : {
                 "username" : "Jodi",
                 "message" : "Hello! this is a message",
-                "createdAt" : "06-12-2023 11:06"
-            }
-        },
-        {
-            "thread_id" : "aknev",
-            "thread_name" : "Mattias",
-            "recent_msg" : {
-                "username" : "Mattias",
-                "message" : "Hello! this is a message",
-                "createdAt" : "06-12-2023 11:06"
+                "createdAt" : "06/12/2023 11:06:00"
+            },
+            "online" : true,
+            "block" : {
+                "status" : false,
+                "youBlock" : false
             }
         }
     ]

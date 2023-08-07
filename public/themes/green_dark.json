@@ -1,0 +1,38 @@
+{
+    "--background-color" : "rgb(57, 59, 59)",
+
+    "--default-font-color" : "white",
+    "--default-border-color" : "rgb(160, 160, 160)",
+    "--default-outline-color" : "#48C67A",
+
+    "--default-btn-background-color" : "var(--background-color)",
+    "--default-btn-background-color-hover" : "rgb(132, 132, 132)",
+    "--default-btn-background-color-active" : "rgb(220, 220, 220)",
+    "--default-btn-icon-color" : "rgb(80, 80, 80)",
+    "--default-btn-icon-color-hover" : "white",
+
+    "--default-btn-background-color-hover-1" : "#48C67A",
+    "--default-btn-background-color-active-1" : "#b9f1cf",
+    "--default-btn-icon-color-1" :"#48C67A",
+    "--default-btn-icon-color-hover-1" : "white",
+
+    "--primary-color-1" : "#48C67A",
+    "--primary-color-2" : "#b9f1cf",
+
+    "--chat-row-inactive" : "rgb(57, 59, 59)",
+    "--chat-row-active" : "var(--primary-color-1)",
+    "--chat-row-hover" : "rgb(81, 85, 85)",
+    "--chat-row-border" : "rgb(84, 87, 87)",
+
+    "--contact-row-background" : "var(--background-color)",
+    "--contact-row-background-hover" : "var(--primary-color-1)",
+    "--contact-row-font-color-hover" : "white",
+
+    "--message-float-background-color" : "#838383",
+    "--message-float-background-color-you" : "#2CAD60",
+    "--message-float-color" : "var(--default-font-color)",
+    "--message-float-color-you" : "white",
+
+    "--dropdown-main-icon-color" : "white",
+    "--dropdown-font-color" : "rgb(80, 80, 80)"
+}

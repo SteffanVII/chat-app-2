@@ -21,6 +21,7 @@
     }
 
     &:hover {
-        background-color: var(--primary-color-2);
+        background-color: var(--contact-row-background-hover);
+        color: var(--contact-row-font-color-hover);
     }
 }

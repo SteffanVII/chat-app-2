@@ -1,26 +1,27 @@
 "use client"
 
-import React from "react";
+import React, { useLayoutEffect } from "react";
 import styles from "./layout.module.scss";
 import NavigationButton from "@/app/client_components/navigation_button/navigation_button";
 import { useStore } from "@/app/store/store";
 import Image from "next/image";
 import Tooltip from "@/app/client_components/tooltip/tooltip";
 import Link from "next/link";
+import { SetTheme } from "@/app/store/clientSetters";
 
 export default function PageAppLayout(
     { children } : { children : React.ReactNode }
 ) {
-    const { session, thread } = useStore();
-
+    const { session, thread, theme, dark } = useStore();
 
     return (
         <>
+            <SetTheme/>
             <nav className={styles['main-nav']} >
                 <Link href={`/app/profile/${thread}`} className={styles['main-nav__profile']}>
                     <Image
                         alt="Profile picture"
-                        src={`http://localhost:8080/${session.username.toLowerCase()}.jpg`}
+                        src={`${process.env.URL}data/${session.username.toLowerCase()}.jpg`}
                         width={46}
                         height={46}
                     />

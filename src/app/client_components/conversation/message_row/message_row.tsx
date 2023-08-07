@@ -29,7 +29,7 @@ export default function MessageRow( { data, no_profile } : Props ) {
                 {   !no_profile && 
                     <Image
                         alt={`${data.username} profile picture`}
-                        src={`http://localhost:8080/${data.username.toLowerCase()}.jpg`}
+                        src={`${process.env.URL}data/${data.username.toLowerCase()}.jpg`}
                         width={24}
                         height={24}
                         style={{
