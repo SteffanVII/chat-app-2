@@ -1,5 +1,3 @@
-"use client"
-
 import Image from 'next/image';
 import sty from './layout.module.scss';
 import Link from 'next/link';
