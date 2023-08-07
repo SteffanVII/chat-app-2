@@ -34,5 +34,7 @@ export default interface ITheme {
     "--message-float-color-you" : string,
 
     "--dropdown-main-icon-color" : string,
-    "--dropdown-font-color" : string
+    "--dropdown-font-color" : string,
+
+    "--block-gradient" : string
 }

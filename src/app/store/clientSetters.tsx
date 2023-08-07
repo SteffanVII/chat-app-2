@@ -136,6 +136,7 @@ export function SetTheme() {
             document.documentElement.style.setProperty("--message-float-color-you", d["--message-float-color-you"]);
             document.documentElement.style.setProperty("--dropdown-main-icon-color", d["--dropdown-main-icon-color"]);
             document.documentElement.style.setProperty("--dropdown-font-color", d["--dropdown-font-color"]);
+            document.documentElement.style.setProperty("--block-gradient", d["--block-gradient"]);
         })
     }, [theme, dark]);
 

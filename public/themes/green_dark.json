@@ -34,5 +34,7 @@
     "--message-float-color-you" : "white",
 
     "--dropdown-main-icon-color" : "white",
-    "--dropdown-font-color" : "rgb(80, 80, 80)"
+    "--dropdown-font-color" : "rgb(80, 80, 80)",
+
+    "--block-gradient" : "linear-gradient( transparent, rgb(37, 39, 39) )"
 }
